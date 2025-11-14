@@ -10,31 +10,18 @@ import Link from "next/link";
 // Example Data
 const experiences = [
   {
-    company: "GirlScript Summer of Code",
-    companyLink: "https://gssoc.girlscript.tech/",
-    link: "https://gssoc.girlscript.tech/",
-    position: "Project Admin & Contributor",
-    duration: "July 2025 - Present",
+    company: "Codsoft Internship ",
+    companyLink: "https://www.codsoft.in/",
+    link: "https://www.codsoft.in/",
+    position: "Web Development",
+    duration: "July 2025 - August 2025",
     description: [
       "Maintaining and contributing to open-source projects.",
-      "Mentoring contributors and reviewing PRs.",
-      "Collaborating with developers worldwide to improve code quality and project structure."
+      "Collaborated in a structured internship environment, following given requirements and delivering tasks within deadlines.",
+      "Improved understanding of frontend workflow, version control with Git/GitHub, and project deployment."
     ],
-    technologies: ["React", "Next.js", "Tailwind CSS", "GitHub"],
-  },
-  {
-    company: "Sheryians Coding School",
-    companyLink: "https://sheryians.com/",
-    link: "https://sheryians.com/",
-    position: "Full Stack Cohort Member",
-    duration: "Feb 2025 - Present",
-    description: [
-      "Learning advanced full-stack development under structured mentorship.",
-      "Building real-world projects with a focus on modern web technologies.",
-      "Collaborating with peers in hackathons and team projects."
-    ],
-    technologies: ["MERN Stack", "Next.js", "TypeScript", "Tailwind CSS", "DevOps"],
-  },
+    technologies: ["React", "MySql", "Tailwind CSS", "GitHub"],
+  }
 ];
 
 export function ExperienceSection() {

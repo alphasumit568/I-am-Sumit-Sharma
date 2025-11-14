@@ -10,14 +10,14 @@ export function Analytics() {
       <Script
         id="google-analytics"
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-2QZC4DVDMN`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-N7SB5FYNCQ`}
       />
       <Script id="gtag-config" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-2QZC4DVDMN');
+          gtag('config', 'G-N7SB5FYNCQ');
         `}
       </Script>
     </>

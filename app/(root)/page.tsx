@@ -2,11 +2,14 @@
 
 import { IntroSection } from "@/components/sections/Intro-section";
 import { AboutSection } from "@/components/sections/about-section";
+import { EducationSection } from "@/components/sections/education-section"; 
 import { SkillsSection } from "@/components/sections/skills-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
 import { ExperienceSection } from "@/components/sections/experience-section";
+import { CertificationsSection } from "@/components/sections/certifications-section";
 import { ServicesSection } from "@/components/sections/services-section";
 import { ContactSection } from "@/components/sections/contact-section";
+
 
 export default function Home() {
   return (
@@ -20,6 +23,10 @@ export default function Home() {
       <AboutSection />
       <hr className="w-full border-gray-300/90 dark:border-gray-300/10 mt-10" />
 
+      {/* Education */}
+      <EducationSection />
+      <hr className="w-full border-gray-300/90 dark:border-gray-300/10 mt-10" />
+
       {/* Experience (Above Skills) */}
       <ExperienceSection />
       <hr className="w-full border-gray-300/90 dark:border-gray-300/10 mt-10" />
@@ -30,6 +37,10 @@ export default function Home() {
 
       {/* Projects */}
       <ProjectsSection />
+      <hr className="w-full border-gray-300/90 dark:border-gray-300/10 mt-10" />
+
+       {/* certificate */}
+      <CertificationsSection />
       <hr className="w-full border-gray-300/90 dark:border-gray-300/10 mt-10" />
 
       {/* Services */}

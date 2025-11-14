@@ -5,6 +5,7 @@ import { IconBrandNextjs } from "@tabler/icons-react";
 import {
   SiExpress,
   SiMongodb,
+  SiMysql,
   SiTypescript,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
@@ -13,6 +14,7 @@ import {
   FaGitAlt,
   FaGithub,
   FaHtml5,
+  FaJava,
   FaNodeJs,
   FaPython,
   FaReact,
@@ -47,8 +49,8 @@ const skillCategories: SkillCategory[] = [
     name: "Languages",
     skills: [
       { name: "JavaScript", icon: <IoLogoJavascript color="#F7DF1E" /> },
-      { name: "TypeScript", icon: <SiTypescript color="#3178C6" /> },
-      { name: "Python", icon: <FaPython color="#3776AB" /> },
+      { name: "MySQL", icon: <SiMysql color="#3178C6" /> },
+      { name: "Java", icon: <FaJava color="#3776AB" /> },
       { name: "HTML", icon: <FaHtml5 color="#E34F26" /> },
       { name: "CSS", icon: <FaCss3 color="#1572B6" /> },
     ],
@@ -57,10 +59,8 @@ const skillCategories: SkillCategory[] = [
     name: "Frontend",
     skills: [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
-      { name: "Next.js", icon: <IconBrandNextjs color="#ffffff" /> },
       { name: "TailwindCSS", icon: <RiTailwindCssFill color="#06B6D4" /> },
       { name: "Framer Motion", icon: <SiFramer color="#0055FF" /> },
-      { name: "shadcn/ui", icon: <span className="text-purple-500">⚡</span> },
       { name: "Material UI", icon: <SiMui color="#007FFF" /> },
       { name: "Radix UI", icon: <SiRadixui color="#000000" /> },
     ],
@@ -69,11 +69,7 @@ const skillCategories: SkillCategory[] = [
     name: "Backend",
     skills: [
       { name: "Node.js", icon: <FaNodeJs color="#339933" /> },
-      { name: "Express.js", icon: <SiExpress color="#ffffff" /> },
-      { name: "PostgreSQL", icon: <BiLogoPostgresql color="#4169E1" /> },
       { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
-      { name: "Supabase", icon: <RiSupabaseFill color="#3ECF8E" /> },
-      { name: "Appwrite", icon: <SiAppwrite color="#F02E65" /> },
     ],
   },
   {
@@ -147,10 +143,9 @@ export function SkillsSection() {
       {/* Experience highlights */}
       <div className="w-full mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
         {[
-          { value: "2+", label: "Years of Learning" },
-          { value: "20+", label: "Projects" },
-          { value: "10+", label: "Hackathons & Events" },
-          { value: "15+", label: "Technologies" },
+          { value: "1+", label: "Years of Learning" },
+          { value: "10+", label: "Projects" },
+          { value: "11+", label: "Technologies" },
         ].map((highlight) => (
           <div
             key={highlight.label}

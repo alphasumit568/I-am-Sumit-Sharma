@@ -24,11 +24,13 @@ type SectionPosition = {
 export function Navbar({
   sections = [
     { id: "intro", label: "Intro" },
+    { id: "education", label: "Education" },
     { id: "experience", label: "Experience" },
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
     { id: "services", label: "Services" },
     { id: "contact", label: "Contact" },
+
   ],
 }: NavbarProps) {
   const { theme } = useTheme();
@@ -132,7 +134,7 @@ export function Navbar({
         {/* Logo */}
         <div className="flex-shrink-0 relative">
           <Link href="#" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#08090a] dark:bg-slate-100 text-white dark:text-black font-semibold relative overflow-hidden group">
-            A
+            S
           </Link>
         </div>
 

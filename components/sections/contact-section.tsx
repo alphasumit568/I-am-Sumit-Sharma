@@ -43,16 +43,16 @@ export function ContactSection() {
               </h4>
 
               <a
-                href="mailto:adityadomle14@gmail.com"
+                href="mailto:notsumitt@gmail.com"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors"
               >
-                adityadomle14@gmail.com
+               notsumitt@gmail.com
                 <Mail className="w-4 h-4 mt-1" color="#2563EB" />
               </a>
 
               <div className="flex items-center justify-center gap-4 pt-4">
                 <a
-                  href="https://x.com/domle_aditya"
+                  href="https://x.com/sumi69966"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-3 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors relative overflow-hidden"
@@ -62,7 +62,7 @@ export function ContactSection() {
                 </a>
 
                 <a
-                  href="https://github.com/adityadomle"
+                  href="https://github.com/alphasumit568"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-3 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors relative overflow-hidden"
@@ -72,7 +72,7 @@ export function ContactSection() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/adityadomle"
+                  href="https://www.linkedin.com/in/sumit-sharma-459326332/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-3 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors relative overflow-hidden"

@@ -34,9 +34,9 @@ const services: Service[] = [
     icon: <PaletteIcon className="w-6 h-6" color="#A21CAF" />,
   },
   {
-    title: "API Development",
+    title: "SQL Developer",
     description:
-      "Creating robust and efficient RESTful APIs using Node.js and Express. Implementing secure authentication, data validation, and proper error handling.",
+      "Capable of designing tables, writing optimized SQL queries, and maintaining relational databases for accurate data processing.",
     icon: <ServerIcon className="w-6 h-6" color="#F59E42" />,
   },
 ];

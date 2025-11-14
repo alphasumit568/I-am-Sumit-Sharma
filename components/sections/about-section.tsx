@@ -37,12 +37,11 @@ export function AboutSection() {
               Who I Am
             </h4>
             <p className="text-sm text-[#737373] dark:text-[#A1A1AA] leading-relaxed">
-              I am a full-stack developer currently learning new tools, also mastering
-              <span className="font-semibold"> GenAI </span> and
-              <span className="font-semibold"> DevOps</span>. Final year BCA student from
-              Nagpur, Maharashtra.
-              I actively participate in tech events and hackathons to sharpen my skills
-              and collaborate with like-minded developers.
+              I am a full-stack developer currently, I’m enhancing my skills in
+             
+              <span className="font-semibold"> MERN </span> stack and exploring modern software development practices to build efficient and user-friendly applications. Final year B.TECH student from
+              Ghaziabad, UttarPradesh.
+              I aim to leverage my technical knowledge and analytical thinking to create impactful digital solutions and contribute effectively to the tech industry.
             </p>
           </div>
 
@@ -53,11 +52,11 @@ export function AboutSection() {
               My Journey
             </h4>
             <p className="text-sm text-[#737373] dark:text-[#A1A1AA] leading-relaxed">
-              I started my web development journey in <span className="font-medium">high school</span>
-              with a passion for becoming a <span className="font-medium">software engineer</span>.
+              I started my web development journey in <span className="font-medium">high school </span>
+               with a passion for becoming a <span className="font-medium">software engineer</span>.
               Since then, I have built strong skills in <span className="font-medium">full-stack development </span>
-              and worked as a <span className="font-medium">Project Maintainer & Contributor</span> at
-              <span className="font-medium"> GirlScript Summer of Code</span>. Currently, I am
+              and worked as a <span className="font-medium">Intern in Web Development</span> at
+              <span className="font-medium"> Codsoft Internship</span>. Currently, I am
               expanding my expertise in <span className="font-medium">React</span> and modern web frameworks
               while seeking <span className="font-medium">internship opportunities</span> to gain
               real-world experience and grow as a developer.
@@ -72,7 +71,7 @@ export function AboutSection() {
               Beyond Coding
             </h4>
             <p className="text-sm text-[#737373] dark:text-[#A1A1AA] leading-relaxed">
-              Outside of coding, I enjoy <span className="font-medium">watching movies, following tech trends, and reading</span>.
+              Outside of coding, I enjoy <span className="font-medium"> Cricket, Travelling, Watching Movies, and Listening Music</span>.
               These activities help me relax while also keeping me inspired with fresh ideas.
             </p>
             <p className="text-sm text-[#737373] dark:text-[#A1A1AA] leading-relaxed">

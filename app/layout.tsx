@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio of Aditya",
+  title: "Portfolio of Sumit",
   description:
-    "Portfolio of Aditya Domle - Software Developer specializing in modern web technologies",
+    "Portfolio of Sumit Sharma - Software Developer specializing in modern web technologies",
   keywords: [
-    "Aditya Domle",
-    "Aditya",
-    "Domle",
+    "Sumit Sharma",
+    "Sumit",
+    "Sharma",
     "Portfolio",
     "Software Developer",
     "Full Stack Developer",
@@ -29,35 +29,35 @@ export const metadata: Metadata = {
     "Backend Developer",
   ],
   openGraph: {
-    title: "Portfolio of Aditya",
+    title: "Portfolio of Sumit",
     description:
-      "Portfolio of Aditya Domle - Software Developer specializing in modern web technologies",
+      "Portfolio of Sumit Sharma - Software Developer specializing in modern web technologies",
     type: "website",
-    url: "imaditya.in",
-    siteName: "Aditya Domle",
+    url: "imsumit.in",
+    siteName: "Sumit Sharma",
     locale: "en_US",
     images: [
       {
         url: "",
         width: 1200,
         height: 630,
-        alt: "Aditya Domle - Full Stack Developer",
+        alt: "Sumit Sharma - Full Stack Developer",
       },
     ],
   },
   twitter: {
-    title: "Aditya Domle - Full Stack Developer",
+    title: "Sumit Sharma - Full Stack Developer",
     description:
-      "Portfolio of Aditya Domle - Software Developer specializing in modern web technologies",
+      "Portfolio of Sumit Sharma - Software Developer specializing in modern web technologies",
     card: "summary_large_image",
-    site: "@domle_aditya",
-    creator: "@domle_aditya",
+    site: "@sumi69966",
+    creator: "@sumi69966",
     images: [
       {
         url: "",
         width: 1200,
         height: 630,
-        alt: "Aditya Domle - Full Stack Developer",
+        alt: "Sumit Sharma - Full Stack Developer",
       },
     ],
   },
